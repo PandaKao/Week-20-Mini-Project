@@ -33,7 +33,7 @@ const FilmCard = ({
       {currentFilm?.Title ? (
         <section className='filmCard'>
           <figure>
-            <img src={`${currentFilm.Poster}`} alt={`${currentFilm.Title}`} />
+            <img alt={`${currentFilm.Title}`} src={`${currentFilm.Poster}`} />
           </figure>
           <article className='details'>
             <h2>{currentFilm.Title}</h2>
